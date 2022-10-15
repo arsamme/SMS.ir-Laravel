@@ -1,22 +1,28 @@
 {
-    "name": "arsamme/smsir-laravel",
-    "description": "Official Sms.ir Laravel Package",
-    "keywords": ["laravel", "sms", "پیامک", "اس ام اس", "sendsms", "notifacation", "sms.ir"],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Ali Raghebi",
-            "email": "aliraghebiii@gmail.com"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "Ipecompany\\Smsirlaravel\\": "src"
-        }
-    },
-    "require": {
-        "guzzlehttp/guzzle": "^7.0",
-        "zendframework/zend-diactoros" : "1.*.*",
-        "symfony/psr-http-message-bridge" : "1.*.*"
+  "name": "arsamme/smsir-laravel",
+  "description": "Official Sms.ir Laravel Package",
+  "keywords": [
+    "laravel",
+    "sms",
+    "پیامک",
+    "اس ام اس",
+    "sendsms",
+    "notifacation",
+    "sms.ir"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ali Raghebi",
+      "email": "aliraghebiii@gmail.com"
     }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Ipecompany\\Smsirlaravel\\": "src"
+    }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^7.0"
+  }
 }
